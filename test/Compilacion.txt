@@ -1,0 +1,244 @@
+
+C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building tarea4 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tarea4 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ tarea4 ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tarea4 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ tarea4 ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tarea4 ---
+[INFO] Surefire report directory: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.tarea4.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.uniandes.ecos.tarea4.app.Model.DatoHistoricoTest
+ln
+sLnMinusAvg
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.uniandes.ecos.tarea4.app.Model.RangoTest
+getJSON
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.uniandes.ecos.tarea4.app.Model.TablaTamanhoRelativoTest
+addDatoHistorico
+getRangos
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tarea4 ---
+[INFO] Building jar: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\tarea4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-assembly-plugin:2.3:single (build-jar-with-dependencies) @ tarea4 ---
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] spark/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sparkjava/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] Building jar: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\tarea4.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/eclipse/ already added, skipping
+[INFO] org/eclipse/jetty/ already added, skipping
+[INFO] about.html already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.eclipse.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] spark/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sparkjava/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[WARNING] Configuration options: 'appendAssemblyId' is set to false, and 'classifier' is missing.
+Instead of attaching the assembly file: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\tarea4.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\tarea4-1.0-SNAPSHOT.jar
+with assembly file: C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4\target\tarea4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.613 s
+[INFO] Finished at: 2017-03-21T22:12:59-05:00
+[INFO] Final Memory: 24M/202M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\JuanPablo\Documents\Especializacion\Semestre 1\ConceptosAvanzadosIngSoftware\Tareas\Tarea4\src\tarea4>
